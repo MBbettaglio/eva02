@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+header{
+        display: flex;
+        justify-content: center;
+}
+h1{
+        color: rgb(255, 0, 191); 
+        background-color: rgba(0, 0, 0, 0.466);
+        width: 45%;
+        font-size: 60px;
+        text-align:center;
+}
+
+h2{
+        
+        color:crimson ; 
+        background-color: rgba(0, 0, 0, 0.466);
+        width: 20%;
+        font-size: 40px;
+        text-align:center;
+}
+h3{
+        color:crimson ; 
+        background-color: rgba(0, 0, 0, 0.466);
+        width: 7%;
+        text-align: center;
+
+}
+h5{
+        color:rgb(255, 0, 191) ; 
+        background-color: rgba(0, 0, 0, 0.466);}
+p{
+        background-color: rgba(0, 0, 0, 0.315);
+        width: 85%;
+}
+
+a{
+        color:aqua;
+        background-color: rgba(255, 5, 121, 0.664);
+        width: 100px;
+        padding: 10px;
+        border: rgb(0, 0, 0) 2px solid;
+        border-radius: 20px;
+        margin: 50px
+}
+img{    
+        width: 25%;
+        height: 50%;}
+.textoCeleste{
+        color:aqua;
+        background-color: rgba(220, 20, 113, 0.192);
+        width: 75%;
+}
+.tamaño{
+        width:50%;
+        background-color: rgba(0, 0, 0, 0.425);
+}
+
+#textoBackground{
+        background-color: rgba(0, 255, 255, 0.233);
+}
+button{
+        background-color:rgb(255, 0, 191)
+}
+
+img{
+        display:block;
+        padding: 50px;
+        padding-left: 200px;
+
+}
+
+body{
+    background-image: url(../clase2/imgeva/wallpaperflare.com_wallpaper\ \(2\).jpg) ; background-attachment: fixed;
+    font-family: 'Do Hyeon';        
+}
+.navegacion{
+        
+        padding: 10px;
+        position: sticky;
+        top: 0px;
+}
+
+.menu{
+        list-style-type: none;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-end;
+        gap:20px
+}
